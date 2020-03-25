@@ -1,0 +1,104 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+textarea{
+	border: 1px solid #000;
+}
+
+body{
+	background-color: #eee;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+	padding: 25px;
+	margin: 10px;
+	background-color: #fff;
+	width:  900px; 
+	border: none; 
+	margin-left: calc(50% - 470px); 
+}
+
+.content{
+	border-bottom: 2px solid green; 
+	display: flex; 
+	justify-content: space-between; 
+	align-items: flex-end; 
+	width: 100%;
+}
+
+.box-shadow{
+	-webkit-box-shadow: 4px 7px 11px -8px rgba(0,0,0,0.55);
+	-moz-box-shadow: 4px 7px 11px -8px rgba(0,0,0,0.55);
+	box-shadow: 4px 7px 11px -8px rgba(0,0,0,0.55);
+}
+
+.assin{
+	margin-top: 15px;
+	width: 80%;	
+	display: flex;
+	justify-content: space-between;
+}
+
+.assin input[type=text]{
+	width: 100%;
+}
+
+#p{
+	background-color: #fff;
+	border: 0;
+	text-align: left;
+	color: #000;
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
+
+input:disabled{
+	background-color: #fff;
+	border: 0;
+	text-align: left;
+	color: #000;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+textarea:disabled{
+	background-color: #fff;
+	border: 0;
+	text-align: left;
+	color: #000;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.asign{
+	border-bottom: 1px solid #000; outline: none; text-align: center; margin-bottom: 5px;
+}
+
+.button{
+	background-color: #4CAF50; /* Green */
+  	border: none;
+  	color: white;
+  	padding: 16px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	transition-duration: 0.4s;
+  	cursor: pointer;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+
+.button1:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
